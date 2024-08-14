@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #7e9ebb;
+    color: #4f5052;
+}
+
+.encriptador{
+    display: flex;
+    align-items: center;
+    margin: 10% 15%;
+    justify-content: space-between;
+
+}
+
+.encriptador__entradaTexto{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.encriptador__entradaTexto__botonoes{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+    
+}
+
+.salida__mensaje{
+    display: flex;   
+    flex-direction: column; 
+    gap: 40px;
+
+}
+
+.salida__mensaje__botones{
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
